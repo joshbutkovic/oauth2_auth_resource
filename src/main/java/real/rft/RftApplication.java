@@ -7,6 +7,8 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 @SpringBootApplication
 public class RftApplication {
+//	https://www.devglan.com/spring-security/spring-oauth2-role-based-authorization
+//	https://github.com/only2dhir/role-based-oauth2/
 
 	@Bean
 	BCryptPasswordEncoder bCryptPasswordEncoder() {
